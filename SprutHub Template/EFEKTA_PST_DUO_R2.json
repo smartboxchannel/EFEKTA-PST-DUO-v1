@@ -81,12 +81,8 @@
           "cluster": "0001_PowerConfiguration",
 		  "attribute": "0020_BatteryVoltage"
         },
-        "bind": true,
-        "report": {
-          "min": 1800,
-          "max": 43200,
-          "change": 1
-        }
+        "bind": false,
+        "report": false
     },
 	{
         "link": {
