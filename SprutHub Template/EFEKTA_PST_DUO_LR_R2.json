@@ -73,20 +73,16 @@
         "attribute": "0007_LocalTime"
       },
       "bind": false,
-	  "report": false
+      "report": false
     },
     {
         "link": {
           "endpoint": 1,
           "cluster": "0001_PowerConfiguration",
-		  "attribute": "0020_BatteryVoltage"
+          "attribute": "0020_BatteryVoltage"
         },
         "bind": true,
-        "report": {
-          "min": 1800,
-          "max": 43200,
-          "change": 1
-        }
+        "report": false
     },
 	{
         "link": {
